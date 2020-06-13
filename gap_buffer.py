@@ -1,5 +1,5 @@
 import string
-"""def gapbuf_forward(gapbuf, limit, gap_start, gap_end): # ["t", "e", "s", "t", "<<", ">>"] start = 3 end = 5
+def gapbuf_forward(gapbuf, limit, gap_start, gap_end): # ["t", "e", "s", "t", "<<", ">>"] start = 3 end = 5
 	sign = gapbuf[gap_start]
 	gapbuf[gap_start] = gapbuf[gap_end]
 	for space in range(gap_start+1, gap_end+1):
@@ -19,7 +19,7 @@ def gapbuf_backward(gapbuf, limit, gap_start, gap_end):
 
 
 print(gapbuf_forward (["t", "e", "s", ".", "..", "...", "....", "t", "a", "b", "d"], 10, 3, 7)) 
-print(gapbuf_backward(["t", "e", "s", ".", "..", "...", "....", "t", "a", "b", "d"], 10, 3, 7))"""
+print(gapbuf_backward(["t", "e", "s", ".", "..", "...", "....", "t", "a", "b", "d"], 10, 3, 7))
 
 
 def createSub8(alphalist, index):
