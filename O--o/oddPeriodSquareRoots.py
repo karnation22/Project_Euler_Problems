@@ -2,7 +2,7 @@ import math
 
 #find period function returns an int of the period 
 ## 1) first it cleaves off the initial int portion of the number
-## 2) then it chuck the number into the helper findSequence
+## 2) then it chucks the number into the helper findSequence
 ## 3) after findPeriod gets that int list, we simply return the int list's period
 
 def isEpsiEqual(flo1, flo2):
